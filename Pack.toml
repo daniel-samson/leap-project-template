@@ -1,0 +1,12 @@
+[copy]
+"public/js/vendor/jquery.js" = ["resource/components/vendor/jquery-3.4.1.min.js"]
+"public/favion.ico" = ["resource/images/favicon/favicon.ico"]
+"public/robots.txt" = ["resource/crawlers/robots.txt"]
+"public/browserconfig.xml" = ["resource/images/favicon/browserconfig.xml"]
+"public/site.webmanifest" = ["resource/images/favicon/site.webmanifest"]
+"public/tile.png" = ["resource/images/favicon/tile.png"]
+"public/tile-wide.png" = ["resource/images/favicon/tile-wide.png"]
+"public/js/app/app.js" = [
+	"resource/components/app/app.js",
+	"resource/components/app/plugins.js",
+]

@@ -1,0 +1,22 @@
+[package]
+name = "leap-project-template"
+version = "0.1.0"
+authors = ["Daniel Samson"]
+edition = "2018"
+description = "Template for new leap projects."
+repository = "https://github.com/daniel-samson/leap-project-template.git"
+readme = "README.md"
+documentation = "https://docs.rs/leap"
+homepage = "https://leap.rs"
+license = "Apache-2.0"
+keywords = ["web", "framework"]
+categories = ["web-programming"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[build-dependencies]
+toml = "0.5"
+dotenv = "0.15"
+serde_derive = "1.0"
