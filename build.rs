@@ -139,7 +139,10 @@ fn compile_sass(sass_path: &Path, output_path: &Path, extension: &str, options: 
             .truncate(false)
             .append(true)
             .open(Path::new(&css_output_path));
-
+        println!(
+            "cargo:rerun-if-changed={}",
+            css_output_path.to_str().unwrap()
+        );
         out_file_handle
             .expect(
                 format!(
