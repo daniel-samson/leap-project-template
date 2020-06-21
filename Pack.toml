@@ -10,3 +10,7 @@
 	"resource/components/app/app.js",
 	"resource/components/app/plugins.js",
 ]
+
+[sass]
+"public/css/default" = "resource/styles/default"
+"public/css/test" = "resource/styles/default"
